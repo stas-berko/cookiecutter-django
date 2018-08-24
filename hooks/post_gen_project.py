@@ -102,8 +102,7 @@ def append_to_project_gitignore(path):
 
 
 def generate_random_string(
-    length, using_digits=False, using_ascii_letters=False, using_punctuation=False
-):
+    length, using_digits=False, using_ascii_letters=False, using_punctuation=False):
     """
     Example:
         opting out for 50 symbol-long, [a-z][A-Z][0-9] string
@@ -228,8 +227,7 @@ def append_to_gitignore_file(s):
 def set_flags_in_envs(
     postgres_user,
     celery_flower_user,
-    debug=False,
-):
+    debug=False, ):
     local_django_envs_path = os.path.join(".envs", ".local", ".django")
     production_django_envs_path = os.path.join(".envs", ".production", ".django")
     local_postgres_envs_path = os.path.join(".envs", ".local", ".postgres")

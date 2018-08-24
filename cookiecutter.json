@@ -13,7 +13,10 @@
     "Apache Software License 2.0",
     "Not open source"
   ],
-  "timezone": "UTC",
+  "timezone": [
+    "Europe/Kiev",
+    "UTC"
+  ],
   "windows": "n",
   "use_pycharm": "n",
   "use_docker": "n",
